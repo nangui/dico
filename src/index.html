@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" value="Adonaï Nangui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Dictionnaire Login UI</title>
+</head>
+<body>
+
+  <div class="w-100 d-flex flex-column" id="wrapper">
+    <header>
+      <div class="contain d-flex flex-column justify-content-center align-items-center w-25 my-3 rounded">
+        <form action="" class="w-100 px-2 px-lg-4" method="post">
+          <div class="form-group">
+            <label class="font-title" for="search">Mot recherché</label>
+            <input class="form-control form-control-sm" id="search" name="search" type="text">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-sm btn-info btn-block" type="submit">Rechercher</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <!-- Main block -->
+    <main class="mt-lg-4 mt-sm-2 d-sm-block d-none">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1 col-12" id="content-translation">
+            <h2 class="font-title py-2">Les langues récemment ajoutées</h2>
+            <div>
+              <span class="badge badge-secondary">
+                <a class="text-white" href="#">Français</a>
+              </span>
+              <span class="badge badge-secondary">
+                <a class="text-white" href="#">Italien</a>
+              </span>
+              <span class="badge badge-secondary">
+                <a class="text-white" href="#">Portugais</a>
+              </span>
+              <span class="badge badge-secondary">
+                <a class="text-white" href="#">Wolof</a>
+              </span>
+            </div>
+            <div class="content-last-word">
+              <h2 class="font-title py-2">Les mots récemment consultés</h2>
+              <div class="p-2 word-translation pb-3">
+                <h5>
+                  <span class="font-title">Mot: </span>
+                  Love
+                </h5>
+                <p>
+                  <span class="font-title">Langue: </span>
+                  Anglais
+                </p>
+                <p class="text-justify">
+                  Love refers to an intense sense of affection and attachment to a living being or something that grows
+                  those...
+                </p>
+                <p class="text-right">
+                  <a href="#" class="btn btn-sm btn-info">Voir détails</a>
+                </p>
+              </div>
+              <div class="p-2 word-translation pb-3">
+                <h5>Amor</h5>
+                <p>
+                  <span class="font-title">Langue: </span>
+                  Portugais
+                </p>
+                <p class="text-justify">
+                  O amor se refere a um intenso sentimento de afeto e apego a um ser vivo ou a algo que cresce
+                  aqueles ...
+                </p>
+                <p class="text-right">
+                  <a href="#" class="btn btn-sm btn-info">Voir détails</a>
+                </p>
+              </div>
+              <div class="p-2 word-translation pb-3">
+                <h5>Amor</h5>
+                <p>
+                  <span class="font-title">Langue: </span>
+                  Espagnol
+                </p>
+                <p class="text-justify">
+                  El amor se refiere a una intensa sensación de afecto y apego a un ser vivo o algo que crece
+                  aquellos ...
+                </p>
+                <p class="text-right">
+                  <a href="#" class="btn btn-sm btn-info">Voir détails</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  
+  <script src="js/app.min.js"></script>
+</body>
+</html>
